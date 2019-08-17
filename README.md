@@ -9,7 +9,8 @@ Sample of integration between SAP Conversational AI chatbot and SAP Successfacto
 - [Scope & Scenario](#scope-scenario)
 - [Prerequisites](#prerequisites)
 	- [1. Basic understanding of chatbot development in CAI](#1-basic-understanding-of-chatbot-development-in-cai)
-	- [2. SAP Cloud Platform Integration (CPI) account](#2-sap-cloud-platform-integration-cpi-account)
+	- [2. Basic understanding of SAP Cloud Platform Integration](#2-basic-understanding-of-sap-cloud-platform-integration)
+	- [3. SAP Cloud Platform Integration (CPI) account](#3-sap-cloud-platform-integration-cpi-account)
 - [Deployment](#deployment)
 	- [STEP 1: Chatbot Preparation](#step-1-chatbot-preparation)
 	- [STEP 2: Create and Deploy Credential Artifact in CPI](#step-2-create-and-deploy-credential-artifact-in-cpi)
@@ -75,7 +76,13 @@ You can refer to tutorials in SAP Conversational AI website. I recommend these t
   https://cai.tools.sap/blog/integrate-a-chatbot-with-a-third-party-system-moviedb-using-sap-cloud-platform-integration/
 
 
-#### 2. SAP Cloud Platform Integration (CPI) account
+#### 2. Basic understanding of SAP Cloud Platform Integration
+
+Navigation in this blog is very useful to explore SAP CPI.
+
+https://blogs.sap.com/2016/10/19/get-started-sap-hana-cloud-platform-integration-service/
+
+#### 3. SAP Cloud Platform Integration (CPI) account
 
 You can use one, either in SAP Cloud Platform Neo environment or Cloud Foundry environment.
 
@@ -354,7 +361,7 @@ In this step, we need to configure the Action of the bot skill in SAP Conversati
 ![cai_actions_webhook_get_employee_authorization.JPG](images/cai_actions_webhook_get_employee_authorization.JPG)
 Enter the CPI endpoint from [STEP 4: Deploy the Artifact](#step-4-deploy-the-artifact) as webhook URL. In this example, I put the complete URL of endpoint. However, if you defined the URL prefix in bot settings, then you can just put */get_employee* in the URL.
 
-The authentication is your CPI account. If you use Process Integration Runtime (it-rt) service instance as per tutorial in Prerequisites [2. SAP Cloud Platform Integration (CPI) account](#2-sap-cloud-platform-integration-cpi-account), then you need to use key that is generated in it-rt service instance.
+The authentication is your CPI account. If you use Process Integration Runtime (it-rt) service instance as per tutorial in Prerequisites [3. SAP Cloud Platform Integration (CPI) account](#3-sap-cloud-platform-integration-cpi-account), then you need to use key that is generated in it-rt service instance.
 
 Below is for reference on the it-rt service instance and service key:
 ![scp_Space_ServiceInstance.JPG](images/scp_Space_ServiceInstance.JPG)
