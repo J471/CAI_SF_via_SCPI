@@ -274,9 +274,9 @@ This is where we set reply if employee/user ID is not found.
 ##### Message Transformers - Script - Groovy Script 1 & 2
 The two elements are using same Groovy script which can be useful to see how the payload looks like at the end of the iflow. I am using same Groovy script as the one in the 2nd tutorial in Prerequisites [1. Basic understanding of chatbot development in CAI](#1-basic-understanding-of-chatbot-development-in-cai).
 
-![cpi_Groovyscript1.JPG](images/cpi_Groovyscript1.JPG)
+![cpi_GroovyScript1.JPG](images/cpi_GroovyScript1.JPG)
 
-![cpi_Groovyscript2.JPG](images/cpi_Groovyscript2.JPG)
+![cpi_GroovyScript2.JPG](images/cpi_GroovyScript2.JPG)
 
 Groovy script:
 
