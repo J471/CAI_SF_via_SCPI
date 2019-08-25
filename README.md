@@ -276,7 +276,9 @@ The two elements are using same Groovy script which can be useful to see how the
 
 ![cpi_Groovyscript1.JPG](images/cpi_Groovyscript1.JPG)
 
-![cpi_Groovyscript1.JPG](images/cpi_Groovyscript1.JPG)
+![cpi_Groovyscript2.JPG](images/cpi_Groovyscript2.JPG)
+
+Groovy script:
 
 ```
 /*
